@@ -1,0 +1,10 @@
+^D:\C++ OPENCV\01.IMREAD_IMSHOW\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/C++ OpenCV/01.imread_imshow" "-BD:/C++ OpenCV/01.imread_imshow/build" --check-stamp-file "D:/C++ OpenCV/01.imread_imshow/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

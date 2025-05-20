@@ -1,0 +1,3 @@
+D:/C++ OpenCV/01.imread_imshow/build/CMakeFiles/IlkDers.dir
+D:/C++ OpenCV/01.imread_imshow/build/CMakeFiles/ALL_BUILD.dir
+D:/C++ OpenCV/01.imread_imshow/build/CMakeFiles/ZERO_CHECK.dir

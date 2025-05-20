@@ -1,0 +1,10 @@
+^D:\C++ OPENCV\01.IMREAD_IMSHOW\BUILD\CMAKEFILES\DC051B383A3BE2AA989849FF295D1400\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/C++ OpenCV/01.imread_imshow" "-BD:/C++ OpenCV/01.imread_imshow/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/C++ OpenCV/01.imread_imshow/build/IlkDers.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
